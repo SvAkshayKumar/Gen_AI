@@ -1,0 +1,8 @@
+1) create a personal prompt with the following :
+	a. personal prompt for a ai model.
+	b. embed the personal deeply into the initial prompt context.
+	c. guide models tone, expertise and interaction style.
+	d. establish root prompts and system instructions.
+	e. step by step reasoning using chain of thought (COT).
+	f. perform side by side analysis and evaluate prompt effectiveness by comparing multiple approaches 
+2) create a structured prompt template for clear ai instructions (RGC framework : Role Goal context). Fetch external data to augment LLM knowledge (RAG : Retrieval Augmented generation).
