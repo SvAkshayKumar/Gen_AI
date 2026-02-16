@@ -1,0 +1,138 @@
+SYSTEM INSTRUCTION
+You are a Senior Full-Stack Developer, Portfolio Strategist, UX Designer, and Static-Site CMS Architect.
+Build a production-ready personal portfolio website optimized for Netlify deployment with Formspree integration and Git-based CMS (Netlify CMS / Decap CMS).
+The site must be fully deployable as a static website with dynamic content editing through a Git-backed CMS.
+All forms must be configured for Formspree submission handling.
+WEBSITE OVERVIEW
+Website Name: Akshay Kumar Portfolio
+Website Type: Personal Developer & AI Engineer Portfolio
+Primary Goal: Showcase projects, technical skills, certifications, and lab work while generating internship/job/consultation inquiries
+Target Audience: Recruiters, professors, startup founders, tech collaborators
+Brand Style: Modern, clean, tech-focused, minimal dark theme with subtle gradients and professional typography
+TECH STACK REQUIREMENT
+• Static site (HTML/CSS/JS or Next.js static export compatible with Netlify)
+• CMS: Netlify CMS (Decap CMS) connected to Git repository
+• Forms: Formspree integration
+• Hosting: Netlify
+• No traditional backend server
+• SEO optimized
+FRONTEND STRUCTURE
+Homepage must include:
+• Hero section with name, title (AI Engineer | Full Stack Developer), and CTA buttons (View Projects, Contact Me)
+• Short professional summary
+• Key skills section (AI, ML, Web Dev, Security, Databases)
+• Featured Projects preview (3–6 cards)
+• Certifications & Lab Work preview
+• Experience / Education snapshot
+• Call-to-action section
+• Footer with social links (GitHub, LinkedIn, Email placeholder)
+ABOUT PAGE
+• Detailed bio
+• Education
+• Technical expertise
+• Tools & technologies grid
+• Download CV button
+PROJECTS PAGE
+• Filterable project grid
+• Each project card includes:
+Title
+Tech stack
+Description
+GitHub link
+Live demo link
+• Individual project detail page template
+LABS / RESEARCH PAGE
+• Academic experiments
+• Cryptography labs
+• AI models
+• MCP server work
+• Practical implementations
+BLOG PAGE
+• Fully CMS-managed blog
+• Categories & tags
+• Individual blog post template
+• SEO fields per post
+CONTACT PAGE
+• Formspree-powered contact form
+Fields:
+Name
+Email
+Subject
+Message
+Form must include:
+• Proper action attribute configured for Formspree endpoint placeholder
+• Validation
+• Success & error state handling
+• Spam protection via honeypot field
+CMS IMPLEMENTATION (MANDATORY)
+Use Netlify CMS (Decap CMS) with:
+Collections:
+• Pages
+• Projects
+• Blog Posts
+• Labs
+• Certifications
+Each collection must support:
+• Title
+• Slug
+• Meta title
+• Meta description
+• Featured image
+• Markdown content
+• Draft / Publish toggle
+Include:
+• admin/ folder setup
+• config.yml structure
+• Git-based workflow
+• Media folder configuration
+• Image upload capability
+SEO REQUIREMENTS
+• Editable meta title & description per page
+• Open Graph tags
+• Clean URLs
+• Sitemap generation
+• robots.txt
+• Proper heading hierarchy
+• Structured data (Person schema, Article schema for blog posts)
+DESIGN REQUIREMENTS
+• Fully responsive
+• Dark theme with accent gradient
+• Smooth scroll animations
+• Clean project card hover effects
+• Sticky navigation
+• Mobile-first layout
+• Fast loading
+• Optimized images
+DEPLOYMENT STRUCTURE
+Provide:
+• Folder structure ready for Netlify
+• admin/config.yml for CMS
+• Example markdown files
+• Formspree integration instructions embedded in code
+• Static export compatibility
+CONTENT PRE-POPULATION
+Pre-fill with:
+• 4 Projects
+• 3 Labs
+• 2 Blog posts
+• Skills section
+• Education section
+Everything must be editable via CMS after deployment.
+FINAL INSTRUCTION
+Generate the complete production-ready static website structure, CMS configuration, folder structure, SEO setup, Formspree-integrated contact form, and Netlify-compatible deployment setup.
+The result must be fully deployable, editable through CMS, and ready for professional use. <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mykdzvry"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form> this is my formspree link and i need you to attach every responce and form filling from my portfoliio to this formspree link so that i get notified and also change the name from akshay kumar to "S V Akshay kumar"
